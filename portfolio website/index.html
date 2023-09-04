@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poornima Sai Talla- Web Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: #a8c0ff;
+            background: -webkit-linear-gradient(to bottom, #3f2b96, #a8c0ff);
+            background: linear-gradient(to bottom, #3f2b96, #a8c0ff);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: #231852;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(139, 139, 215);
+            font-size: 1.02rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #7d6eba;
+            height: 1px;
+            margin: 20px 60px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .left1{
+            font-size: 1rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+            margin: 85px;
+        }
+
+        .firstSection div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2.3rem;
+        }
+
+        .rightSection img {
+            width: 80%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: rgb(43, 16, 68);
+        }
+
+        #element {
+            color: rgb(43, 16, 68);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        .about-container {
+            background-color: rgba(255, 255, 255, 0.186);
+            padding: 50px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            margin: 10px;
+        }
+
+        .thirdSection {
+            max-width: 80vw;
+            margin: auto;
+        }
+        .fourthSection{
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        .button {
+
+            background-color: rgb(43, 16, 68);
+            border: none;
+            color:  white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 4px;
+
+        }
+        .fourthSection img{
+            width: 20%;
+            margin: 30px 0;
+            margin-right: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Poornima's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About Me</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                <p>My name is</p><span class="purple">Poornima Sai Talla,</span>
+                <p>and I am a</p>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="bg.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <h1>About Me</h1>
+            <div class="about-container">
+                <p style="font-size: 18px;"> <span class="purple">Welcome to my portfolio! I'm Poornima, a final-year
+                        Information Science and Engineering student with a
+                        passion for
+                        innovation and problem-solving. I am a creative thinker and curious about how things work.
+                        Throughout my academic journey, I've honed my skills in C, C++, Java, HTML, CSS, PHP and
+                        Python.</span>
+                </p>
+                <p style="font-size: 18px;"><span class="purple">Over the years, I had the opportunity to work on
+                        various projects and these
+                        experiences have taught me the importance of collaboration, adaptability and continous learning.
+                    </span>
+                </p>
+            </div>
+        </section>
+        <hr>
+        <section class="thirdSection">
+            <h1>My Projects</h1>
+            <div class="about-container">
+                <h3>Airport Passenger Management System</h3>
+                <br>
+                <p style="font-size: 18px;"><span class="purple">Successfully deployed a fully functioning front end
+                        website using HTML, PHP, CSS, JavaScript to help
+                        facilitate the booking of flight tickets by passengers from the comfort of their home and used
+                        MySQL to store the data entered into the website into MariaDB for easy access and retrieval.
+                    </span>
+                </p>
+                <br>
+                <button class="button">View Project Here</button>
+            </div>
+            <div class="about-container">
+                <h3>Movie Ticket Booking System</h3>
+                <br>
+                <p style="font-size: 18px;"><span class="purple">Successfully deployed a terminal based program in C++
+                        to book tickets to different movies within a theater and used File Structure concepts to store
+                        the data entered by the customers in the form or records for easy access, retrieval and
+                        modification of customer data.
+                    </span>
+                </p>
+                <br>
+                <button class="button">View Project Here</button>
+            </div>
+        </section>
+        <hr>
+        <section class="fourthSection">
+            <h1>My Skills</h1>
+            <div class="about-container">
+                    <img src="html_logo.jpg" alt="">
+                <img src="css_logo.jpg" alt="">
+                <img src="php_logo.jpg" alt="">
+                <img src="python_logo.jpg" alt="">
+                <img src="cpp_logo.jpg" alt="">
+                <img src="js_logo.jpg" alt="">
+                <img src="sql_logo.jpg" alt="">
+                <img src="figma_logo.jpg" alt="">
+            </div>
+
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer','UI/UX Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+<footer>
+    <nav>
+        <div class="left1">Contact Me</div>
+        <div class="right">
+            <ul>
+                <li>LinkedIn</li>
+                <li>Email</li>
+            </ul>
+        </div>
+    </nav>
+</footer>
+</html>
